@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers {
+    width: 1820px;
+    height: 640px;
+    background-color: #0000BE;
+    border-radius: 16px;
+    margin-top: 266px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.headers_content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.headers_vec2 {
+    margin-left: 1094px;
+    margin-top: -567px;
+}
+
+.headers_vec3 {
+    margin-top: -504px;
+}
+
+.img_vec {
+    z-index: 1;
+}
+
+.headers_text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: -146px;
+    margin-left: 153px;
+    z-index: 2;
+    font-size: 28px;
+}
+
+.headers_text h2 {
+    font-size: 96px;
+    margin-bottom: 20px;
+}
+.button_headers{
+    margin-top: 56px;
+    margin-bottom: 100px;
+    width: 210px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+}
+
+.cricle{
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.dot {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    height: 12px;
+    width: 12px;
+    background-color: #FFFFFF;
+    opacity: 50%;
+    border-radius: 50%;
+    border: none;
+}
+
+.dot:checked {
+    background-color: #FFFFFF;
+    opacity: 100%;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards_row {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.card_popular {
+    width: 747px;
+    height: 256px;
+    background-color: #EB008C;
+    border-radius: 16px;
+    color: white;
+}
+.card_popular_content{
+    margin: 30px;
+}
+.popular_text_header{
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+}
+
+.popular_buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.popular_button1{
+    margin-left: 256px;
+    width: 104px;
+    height: 32px;
+    background-color: #EB008C;
+    border-radius: 6px;
+    border: 1px #FFFFFF solid;
+    color: white;
+}
+.popular_button2{
+    width: 65px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #EB008C;
+    border: none;
+}
+
+.bubble_gum{
+    margin-left: 548px;
+    margin-top: -270px;
+}
+
+.card_long {
+    width: 1053px;
+    height: 256px;
+    background-color: #F3F4F6;
+    border-radius: 16px;
+}
+
+.card {
+    width: 593px;
+    height: 256px;
+    background-color: #F3F4F6;
+    border-radius: 16px;
+}
+.popular_text_mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 36px;
+    gap: 16px;
+}
+.popular_text_end span{
+    margin-left: 20px;
+}
+.popular_button3{
+    width: 210px;
+    height: 56px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    color: #EB008C;
+    border: none;
+}
+.popular_button1_2{
+    margin-left: 53px;
+    width: 104px;
+    height: 32px;
+    background-color: #EB008C;
+    border-radius: 6px;
+    border: 1px #FFFFFF solid;
+    color: white;
+}
+.bubble_gum_phone{
+    width: 137px;
+    height: 154px;
+    margin-left: 575px;
+    margin-top: -587px;
+}
+
+.card_long_content{
+    margin: 30px;
+}
+
+.long_text_header{
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+.long_text_mid{
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.long_text_end {
+    margin-top: 36px;
+}
+.long_text_end span{
+    margin-left: 20px;
+}
+.long_button{
+    width: 210px;
+    height: 56px;
+    background-color: #F3F4F6;
+    border-radius: 6px;
+    color: #EB008C;
+    border: 1px #EB008C solid;
+}
+.bubble_gum3{
+    margin-left: 800px;
+    margin-top: -270px;
+}
+.bubble_gum4{
+    margin-left: 750px;
+    margin-top: -270px;
+}
+.card_content{
+    margin: 30px;
+}
+.card_header{
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+.card_body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+.card_end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.card_button{
+    width: 210px;
+    height: 56px;
+    background-color: #F3F4F6;
+    border-radius: 6px;
+    color: #EB008C;
+    border: 1px #EB008C solid;
+}
