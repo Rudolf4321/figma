@@ -254,3 +254,127 @@ main {
     color: #EB008C;
     border: 1px #EB008C solid;
 }
+.map{
+    margin-top: 80px;
+    background: url("img/map.png") no-repeat center center;
+    background-size: cover;
+    width: 1820px;
+    height: 782px;
+    border-radius: 16px;
+    border: 1px #C5C6C7 solid;
+}
+.map_content{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.map_section{
+    display: flex;
+    flex-direction: column;
+}
+.map_selection1{
+    margin-top: 130px;
+    margin-left: 227px;
+}
+.map_selection2{
+    width: 381px;
+    height: 253px;
+    margin-top: -124px;
+    margin-left: 227px;
+}
+.map_selection3{
+    width: 242px;
+    height: 157px;
+    margin-top: -393px;
+    margin-left: 131px;
+}
+.map_content h2{
+    font-size: 64px;
+    font-weight: inherit;
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle{
+    display: flex;
+    gap: 20px;
+    color: #FFFFFF;
+    margin-top: 320px;
+    margin-left: 30px;
+}
+
+.g3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB008C;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+  }
+.g4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000BE;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+footer{
+    margin-top: 80px;
+    width: 1904px;
+    height: 292px;
+    background-color: #FFFFFF;
+    border-top: 2px #C5C6C7 solid;
+}
+.footer_content{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.footer_content_header{
+    font-size: 28px;
+    color: #0000BE;
+}
+.logo {
+    margin-top: 67px;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+}
+.logo_2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -37px;
+    margin-left: 12px;
+}
+.footer_table{
+    display: flex;
+    flex-direction: row;
+    margin-left: 509px;
+    margin-top: -160px;
+    gap: 155px;
+}
+.footer_table_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+.footer_table_number{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    font-size: 36px;
+    color: #0000BE;
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
